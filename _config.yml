@@ -1,0 +1,25 @@
+# Permalinks
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               '工作誌'
+tagline:             'im marc huang'
+description:         '馬克開發誌'
+url:                 http://marchuang.github.io
+baseurl:             http://marchuang.github.io
+paginate:            5
+
+# About/contact
+author:
+  name:              MARC
+  url:               https://www.facebook.com/marchuang41
+  email:             marchuang@eland.com.tw
+
+#  Html compress config
+compress_html:
+  clippings: all
+
+# Build exclude
+exclude:
+  - CREATE NEW POST

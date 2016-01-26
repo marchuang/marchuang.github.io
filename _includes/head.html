@@ -1,0 +1,31 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <meta content="{{ site.description }}">
+  <meta property="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} {{ site.tagline }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} {{ site.tagline }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:url" content="{% if page.url %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.site_url }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://note.kxg.io/public/fb.jpg" />
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.tagline }}
+    {% endif %}
+  </title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css?4">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/favicon-144-precomposed.png?1">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.png?1">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
