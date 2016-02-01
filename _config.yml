@@ -6,8 +6,8 @@ relative_permalinks: true
 title:               '工作誌'
 tagline:             'im marc huang'
 description:         '馬克開發誌'
-url:                 http://marchuang.github.io
-baseurl:             http://marchuang.github.io
+url:                 https://marchuang.github.io
+baseurl:             https://marchuang.github.io
 paginate:            5
 
 # About/contact
