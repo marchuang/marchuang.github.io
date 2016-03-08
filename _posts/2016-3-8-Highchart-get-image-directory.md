@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Highchart 直接取得圖片檔"
+title: "Highcharts 直接取得圖片檔"
 author: marc
 ---
 
@@ -13,7 +13,7 @@ Include jQuery and create an image container
 {% endhighlight %}
 
 ### Step 2:
-Declare a highchart option object
+Declare a highcharts option object
 {% highlight javascript %}
 var options = {
     exporting: {
@@ -68,7 +68,7 @@ var options = {
 {% endhighlight %}
 
 ### Step 3:
-Create an AJAX object and contain highchart object into it
+Create an AJAX object and assign highchart object to it
 {% highlight javascript %}
 var obj = {},
 exportUrl = options.exporting.url;
